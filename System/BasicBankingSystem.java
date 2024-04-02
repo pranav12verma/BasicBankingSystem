@@ -6,22 +6,22 @@ import java.util.*;
 //        Bank bank = new SimpleBank();
 //
 //        try {
-//            bank.createAccount("123456789", "John Doe", 1000);
-//            bank.createAccount("987654321", "Jane Smith", 500);
+//            bank.createAccount("123456789", "pranav verma", 1000);
+//            bank.createAccount("987654321", "manu mathur", 500);
 //        } catch (BankException e){
 //            System.out.println("Error: " + e.getMessage());
 //        }
 //
 //        try {
-//            BankAccount johnAccount = bank.getAccount("123456789");
-//            BankAccount janeAccount = bank.getAccount("987654321");
+//            BankAccount pranavAccount = bank.getAccount("123456789");
+//            BankAccount manuAccount = bank.getAccount("987654321");
 //
-//            johnAccount.deposit(500);
-//            janeAccount.withdraw(200);
-//            johnAccount.transfer(janeAccount, 300);
+//            pranavAccount.deposit(500);
+//            manuAccount.withdraw(200);
+//            pranavAccount.transfer(manuAccount, 300);
 //
-//            System.out.println("John's balance: " + johnAccount.getBalance());
-//            System.out.println("Jane's balance: " + janeAccount.getBalance());
+//            System.out.println("pranav's balance: " + pranavAccount.getBalance());
+//            System.out.println("manu's balance: " + manuAccount.getBalance());
 //        } catch (BankException e) {
 //            System.out.println("Error: " + e.getMessage());
 //        }
